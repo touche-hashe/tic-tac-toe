@@ -1,0 +1,116 @@
+/* start global value */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* variables css */
+:root {
+  --main-color: #c5e4e7;
+  --second-color: #406365;
+}
+/* end variabes css */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #192a32;
+}
+
+/* start meadia querie */
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .tic-tac-toe ul {
+    display: grid;
+    grid-template-columns: repeat(3, 60px) !important;
+    gap: 10px;
+  }
+  .tic-tac-toe p {
+    font-size: 10px !important;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    width: 540px;
+    margin: 0 auto;
+  }
+  .tic-tac-toe ul {
+    display: grid;
+    grid-template-columns: repeat(3, 70px) !important;
+    gap: 10px;
+  }
+  .tic-tac-toe p {
+    font-size: 15px !important;
+    font-weight: bold;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 750px;
+    margin: 0 auto;
+  }
+  .tic-tac-toe ul {
+    display: grid;
+    grid-template-columns: repeat(3, 100px) !important;
+    gap: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    width: 970px;
+    margin: 0 auto;
+  }
+  .tic-tac-toe ul {
+    display: grid;
+    grid-template-columns: repeat(3, 150px) !important;
+    gap: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.tic-tac-toe {
+  margin-top: 80px;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tic-tac-toe p {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #1f3540;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tic-tac-toe ul {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 10px;
+}
+.tic-tac-toe ul li {
+  list-style: none;
+  background-color: #1f3540;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  height: 60px;
+}
+.tic-tac-toe ul .li:hover {
+  background-color: teal;
+}
