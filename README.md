@@ -1,4 +1,4 @@
-تمام 👌، دي نسخة README جاهزة لمشروع لعبة **Tic Tac Toe (XO)**:
+:
 # Tic Tac Toe Game 
 
 ##  Overview
