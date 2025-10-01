@@ -1,4 +1,4 @@
-:
+
 # Tic Tac Toe Game 
 
 ##  Overview
@@ -64,5 +64,3 @@ tic-tac-toe/
 * **Win check:** The result is displayed at the bottom.
 
 ---
-
-؟
